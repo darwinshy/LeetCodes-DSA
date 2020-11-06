@@ -1,4 +1,5 @@
-# LeetCodes-DataStuctures-Problems-and-Implementations
+# LeetCodes
+### DataStuctures-Problems-and-Implementations
 
 ## Data Structure Implementation and Problems.
 ### All the codes are implemeneted while going through the Explore Section of Leetcodes.
