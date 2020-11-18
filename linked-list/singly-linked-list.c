@@ -32,18 +32,16 @@ void deleteNode(struct SinglyListNode *prevNode, struct SinglyListNode *currentN
 {
     if (prevNode == NULL || currentNode == NULL)
         return;
-    
+
     prevNode->next = currentNode->next;
 }
 
 int main()
 {
     // Create a head node with NULL pointer;
-    struct SinglyListNode *headNode = NULL;
-    // Create a second node with NULL pointer;
-    struct SinglyListNode *secondNode = NULL;
-    // Create a third node with NULL pointer;
-    struct SinglyListNode *thirdNode = NULL;
+    struct SinglyListNode *headNode = NULL,
+                          *secondNode = NULL,
+                          *thirdNode = NULL;
 
     headNode = (struct SinglyListNode *)malloc(sizeof(struct SinglyListNode));
     secondNode = (struct SinglyListNode *)malloc(sizeof(struct SinglyListNode));
